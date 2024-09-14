@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(backimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.main{
+    display: flex;
+}
+.left img{
+    width: 70px;
+    height: 70px;
+    margin:10px 80px;
+    border-radius: 10px;
+}
+.left p{
+    color: aliceblue;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.center{
+    width: 900px;
+    padding-left: 20px;
+    
+}
+.center ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 80px;
+}
+.center ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.center ul li a:hover{
+    color: rgb(199, 85, 104);
+    text-decoration: underline;
+    background-color: aliceblue;
+
+}
+.right button{
+    margin: 27px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(12, 53, 118);
+    color: white;
+    border: 4px solid rgb(152, 31, 51);
+}
+.right button:hover{
+    background-color: aliceblue;
+    color: blue;
+    cursor: pointer;
+}
+.wp{
+    width: 100%;
+    
+}
+.wp h2{
+    font-size: 40px;
+    color: rgb(248, 248, 248);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.mainform{
+    padding-left: 130px;
+    padding-top: 40px;
+    width: 700px;
+    height: 570px;
+    border: 7px solid white;
+    margin-left: 70px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.mainform  form input{
+    height:54px ;
+    width: 400px;
+    padding-left: 140px;
+    margin-bottom: 34px;
+    border-radius: 7px;
+}
+.mainform h3{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    text-align:left;
+    padding-bottom: 20px;
+}
+.mainform button{
+    height:54px;
+    width: 140px;
+    margin-left: 120px;
+    border-radius: 10px;
+    background-color: rgba(34, 213, 180, 0.305);
+    color: aliceblue;
+    border: 3px solid white;
+}
+.mainform button:hover{
+    border:3px solid rgb(15, 227, 188);
+    color: rgb(9, 23, 23);
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
